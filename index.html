@@ -2,8 +2,214 @@
 <html>
     <body>
         <h1>
-        <P>hlo everyone its samridh here  im a student of class six in 2025 (dont know which year u opened my website  ) i am a coder from class 1 and thank you so much for opening this big boy! i hope u liked it!! u can ask me any thing about phython or html<3
+        <P>hlo its samridh here  im a student of class six in 2025 (dont know which year u opened my website  ) i am a coding from class 1 and thank you so much for opening this big boy! i hope u liked it!! u can ask me any thing about phython or html<3 Well do you know? i also have a plenty knowledge about science as i am a student of 6 and new friend do you know that you can also create your own website if you have knowledge about html as html only works on vs code you must have a laptop or a pc to create one contact me on : 8984375214 for more info. THANK YOU AND HAVE A NICE DAY!! So if u liked it or you have any feedback pls contact and tell meeeee.... And if you want to know my country i live in India or you can dm me in kumarsamridh03@gmail.com if you want nad pls try to  make this website popular asap i hope you guys will understand :)) SEE YA SOOOOOOOOOOOOOOOOOON ....
         </p>
         </h1>
     </body>
+</html>
+<head>
+    <title>hlo this is my code</title>
+    <style>
+        body{
+            background-color: black;
+color:rgb(5, 86, 5)
+        }
+    </style>
+</head>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Friendly Buttons</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    button {
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      background: #007bff;
+      color: white;
+    }
+
+    button:active {
+      background: #0056b3;
+    }
+
+    #output {
+      margin-top: 15px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Mobile Website</h2>
+
+    <button onclick="showMessage()">Click Me</button>
+    <button onclick="changeColor()">Change Background</button>
+    <button onclick="resetPage()">Reset</button>
+
+    <p id="output"></p>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("output").innerText =
+        "Thanks for pressing me. It means im working and if you want to ask my owner anything about python,html,java and css contact on: +91 8984375214 or dm me on kumarsamridh03@gmail.com thank you!!";
+    }
+
+    function changeColor() {
+      document.body.style.background =
+        "#" + Math.floor(Math.random() * 16777215).toString(16);
+    }
+
+    function resetPage() {
+      document.body.style.background = "#f2f2f2";
+      document.getElementById("output").innerText = "";
+    }
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Word Meanings</title>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #eef2f7;
+    margin: 0;
+  }
+  .box {
+    max-width: 500px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+  }
+  button {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background: #28a745;
+    color: white;
+  }
+  #meaning {
+    margin-top: 15px;
+    background: white;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 17px;
+  }
+</style>
+</head>
+
+<body>
+<div class="box">
+  <h2>Tap a Word 📖</h2>
+
+  <!-- 30 STATIC BUTTONS -->
+  <button onclick="showMeaning('Happy')">Happy</button>
+  <button onclick="showMeaning('Brave')">Brave</button>
+  <button onclick="showMeaning('Honest')">Honest</button>
+  <button onclick="showMeaning('Calm')">Calm</button>
+  <button onclick="showMeaning('Kind')">Kind</button>
+  <button onclick="showMeaning('Strong')">Strong</button>
+  <button onclick="showMeaning('Smart')">Smart</button>
+  <button onclick="showMeaning('Fast')">Fast</button>
+  <button onclick="showMeaning('Slow')">Slow</button>
+  <button onclick="showMeaning('Clean')">Clean</button>
+
+  <button onclick="showMeaning('Bright')">Bright</button>
+  <button onclick="showMeaning('Dark')">Dark</button>
+  <button onclick="showMeaning('Safe')">Safe</button>
+  <button onclick="showMeaning('Dangerous')">Dangerous</button>
+  <button onclick="showMeaning('Healthy')">Healthy</button>
+  <button onclick="showMeaning('Sick')">Sick</button>
+  <button onclick="showMeaning('Rich')">Rich</button>
+  <button onclick="showMeaning('Poor')">Poor</button>
+  <button onclick="showMeaning('Easy')">Easy</button>
+  <button onclick="showMeaning('Hard')">Hard</button>
+
+  <button onclick="showMeaning('Hot')">Hot</button>
+  <button onclick="showMeaning('Cold')">Cold</button>
+  <button onclick="showMeaning('Soft')">Soft</button>
+  <button onclick="showMeaning('Rough')">Rough</button>
+  <button onclick="showMeaning('Early')">Early</button>
+  <button onclick="showMeaning('Late')">Late</button>
+  <button onclick="showMeaning('True')">True</button>
+  <button onclick="showMeaning('False')">False</button>
+  <button onclick="showMeaning('Open')">Open</button>
+  <button onclick="showMeaning('Closed')">Closed</button>
+
+  <div id="meaning">Meaning will appear here 👇</div>
+</div>
+
+<script>
+function showMeaning(word) {
+  const meanings = {
+    Happy:"Feeling joy or pleasure.",
+    Brave:"Showing courage.",
+    Honest:"Truthful and fair.",
+    Calm:"Peaceful and relaxed.",
+    Kind:"Caring and generous.",
+    Strong:"Having great strength.",
+    Smart:"Intelligent and clever.",
+    Fast:"Moving quickly.",
+    Slow:"Moving with less speed.",
+    Clean:"Free from dirt.",
+
+    Bright:"Full of light.",
+    Dark:"With little light.",
+    Safe:"Free from danger.",
+    Dangerous:"Likely to cause harm.",
+    Healthy:"In good health.",
+    Sick:"Not healthy.",
+    Rich:"Having much money.",
+    Poor:"Having little money.",
+    Easy:"Not difficult.",
+    Hard:"Difficult.",
+
+    Hot:"High temperature.",
+    Cold:"Low temperature.",
+    Soft:"Not hard.",
+    Rough:"Not smooth.",
+    Early:"Before expected time.",
+    Late:"After expected time.",
+    True:"Correct or real.",
+    False:"Not correct.",
+    Open:"Not closed.",
+    Closed:"Not open."
+  };
+
+  document.getElementById("meaning").innerText =
+    word + ": " + meanings[word];
+}
+</script>
+</body>
 </html>
