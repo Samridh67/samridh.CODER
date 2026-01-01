@@ -214,35 +214,26 @@ function showMeaning(word) {
 </body>
 </html>
 
-<!-- GOOD THOUGHTS SECTION -->
+<!-- GOOD THOUGHT BUTTONS -->
 <h2 style="margin-top:30px;">🌟 Good Thoughts</h2>
 
-<div class="word-card">
-  <strong>🌞 Thought 1</strong>
-  <div class="meaning">Every day is a new chance to grow.</div>
-</div>
+<button onclick="showThought(1)">Click me</button>
+<p id="thought1" style="display:none;">🌞 Every day is a new chance to grow.</p>
 
-<div class="word-card">
-  <strong>💪 Thought 2</strong>
-  <div class="meaning">Believe in yourself and your abilities.</div>
-</div>
+<button onclick="showThought(2)">Click me</button>
+<p id="thought2" style="display:none;">💪 Believe in yourself and never doubt.</p>
 
-<div class="word-card">
-  <strong>🌱 Thought 3</strong>
-  <div class="meaning">Small steps every day lead to big success.</div>
-</div>
+<button onclick="showThought(3)">Click me</button>
+<p id="thought3" style="display:none;">🌱 Small steps every day lead to big success.</p>
 
-<div class="word-card">
-  <strong>😊 Thought 4</strong>
-  <div class="meaning">A positive mind creates a peaceful life.</div>
-</div>
+<button onclick="showThought(4)">Click me</button>
+<p id="thought4" style="display:none;">😊 A positive mind creates a peaceful life.</p>
 
-<div class="word-card">
-  <strong>🔥 Thought 5</strong>
-  <div class="meaning">Never give up, even when it feels hard.</div>
-</div>
+<button onclick="showThought(5)">Click me</button>
+<p id="thought5" style="display:none;">🔥 Never give up — you are stronger than you think.</p>
 
-<div class="word-card">
-  <strong>❤️ Thought 6</strong>
-  <div class="meaning">Be kind — it always comes back to you.</div>
-</div>
+<script>
+function showThought(num) {
+  document.getElementById("thought" + num).style.display = "block";
+}
+</script>
