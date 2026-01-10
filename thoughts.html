@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Thoughts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="nav">
+<a href="index.html">Home</a>
+<a href="words.html">Words</a>
+<a href="thoughts.html">Thoughts</a>
+<a href="gallery.html">Gallery</a>
+<a href="about.html">About</a>
+</div>
+
+<div class="page">
+<h1>Good Thoughts</h1>
+
+<button onclick="show('Believe in yourself')">Click me</button>
+<button onclick="show('Never give up')">Click me</button>
+<button onclick="show('You are strong')">Click me</button>
+
+<div id="out"></div>
+</div>
+
+<script>
+function show(t){
+  document.getElementById("out").innerText = t;
+}
+</script>
+
+</body>
+</html>
