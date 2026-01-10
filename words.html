@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Words</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="nav">
+<a href="index.html">Home</a>
+<a href="words.html">Words</a>
+<a href="thoughts.html">Thoughts</a>
+<a href="gallery.html">Gallery</a>
+<a href="about.html">About</a>
+</div>
+
+<div class="page">
+<h1>Word Meanings</h1>
+
+<button onclick="show('Happy – Feeling joy')">Happy</button>
+<button onclick="show('Brave – Not afraid')">Brave</button>
+<button onclick="show('Kind – Caring')">Kind</button>
+<button onclick="show('Strong – Powerful')">Strong</button>
+
+<div id="out"></div>
+</div>
+
+<script>
+function show(t){
+  document.getElementById("out").innerText = t;
+}
+</script>
+
+</body>
+</html>
